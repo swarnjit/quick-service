@@ -2,8 +2,9 @@
   "name": "quick-service",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://swarnjit.github.io/",
+  "homepage": "https://swarnjit.github.io/quick-service",
   "dependencies": {
+    "@material-ui/core": "^4.8.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -18,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
